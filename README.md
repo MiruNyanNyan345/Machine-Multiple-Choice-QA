@@ -20,19 +20,19 @@ Please read "COMP5423-Group-Project.pdf"
 * MC Test
 * RACE
 * Dream
-* 
-## Bidirectional Encoder Representation with Transformer-based
-# Sentence Emotion 
 
-## Environment
+
+## Bidirectional Encoder Representation with Transformer-based
+
+### Environment
 1. Colab
 
-# Data File
+### Data File
 1. MCTEST
 2. RACE
 3. DREAM
 
-# Program File
+### Program File
 1. Bidirectional Encoder Representations from Transformers
    1. mctest_bert_large.ipynb
    2. mctest_albert.ipynb
@@ -40,7 +40,7 @@ Please read "COMP5423-Group-Project.pdf"
    4. race_albert.ipynb
    5. dream_albert.ipynb
 
-## Installation
+### Installation
 1. Go to Google Colab and upload the program file that you would like to run on it.
 <img src="https://i.imgur.com/ZTLpr4i.png" width="500">
 
