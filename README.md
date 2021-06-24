@@ -4,21 +4,23 @@
 ## Project Requirements
 Please read "COMP5423-Group-Project.pdf"
 
+
+## Approaches
 1. Conventional Feature-based
   * Based on traditional mathematics and statistical methods
 3. Transformer Learning Bert-based
   * Only applying Bert Encoder to train the model
   * No Fine-Tuning
 4. Bidirectional Encoder Representation with Transformer-based
-  ⭐️ My responsible task
-   * QA Dataset
-    * MC Test
-    * RACE
-    * Dream
-   * Differnet transformers are applied on different dataset
+</br>⭐️ My responsible task
+ * Differnet transformers are applied on different dataset
     * Depends on the dataset size and the type of the questions and answers
-   * Involving Fine-Tuning
-
+ * Involving Fine-Tuning
+### Datasets
+* MC Test
+* RACE
+* Dream
+* 
 ## Bidirectional Encoder Representation with Transformer-based
 # Sentence Emotion 
 
