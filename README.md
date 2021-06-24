@@ -23,7 +23,6 @@ Please read "COMP5423-Group-Project.pdf"
 
 
 ## Bidirectional Encoder Representation with Transformer-based
-
 ### Environment
 1. Colab
 
@@ -71,3 +70,36 @@ For the mctest dataset, please only replace the path of the file, if you are not
 1. After that, you are able to run the program \
 <img src="https://i.imgur.com/o6vvsea.png" width="500">
 
+### Result
+#### Bert-Large-Uncased (MC Test)
+|            | Train | Dev   | Test  |
+|  ----      | ----  | ----  | ----  |
+| mc160+500  | 92.7  | 56.5  | 57.7  |
+| mc500      | 94.6  | 53    | 56.5  |
+| mc160      | 96.4  | 50.8  | 45    |
+
+#### Albert-Base-v2 (MC Test)
+|            | Train | Dev   | Test  |
+|  ----      | ----  | ----  | ----  |
+| mc160+500  | 86.5  | 60.9  | 60.2  |
+| mc500      | 80.4  | 45    | 47.5  |
+| mc160      | 81.2  | 56    | 57.8  |
+
+#### Distilbert-Base-Uncased (RACE)
+|            | Train | Dev   | Test  |
+|  ----       | ----  | ----  | ----  |
+| RACE middle  | 81.9  | 54.9  | 54.2 |
+| RACE high      | 82.2  | 52| 50.3 |
+| RACE middle+high | 81.9  | 54.4  | 53   |
+
+#### Albert-Base-v2 (RACE)
+|            | Train | Dev   | Test  |
+|  ----       | ----  | ----  | ----  |
+| RACE middle  | 84.2  | 60 | 60 |
+| RACE high      | 59.6  | 49.3 | 45.5 |
+| RACE middle+high | 75.2  | 54.7  | 55.2   |
+
+#### Albert-Base-v2 (DREAM)
+|            | Train | Dev   | Test  |
+|  ----       | ----  | ----  | ----  |
+| Dream| 98  | 64.3 | 65.3 |
